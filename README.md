@@ -34,7 +34,7 @@
 # 项目结构与运行
 运行项目前可准备好后端接口，使用Python Falsk实现，代码放置在picbook-py中，直接运行即可：
 ```
-python pibook.py
+python picbook.py
 ```
 以及可以在MySQL中创建好userinfo数据库后，导入本人自用测试的数据表，放置在picbook-mysql中。
 
