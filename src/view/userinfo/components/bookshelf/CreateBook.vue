@@ -53,7 +53,7 @@ export default {
     createBook(){
       if(this.picbookname!=''&&this.isprivate!=''){
         let newbookid = nanoid()     
-        axios.post('http://qinsw666.top:5001/createbook',{
+        axios.post('自己的接口/createbook',{
           bookid:newbookid,
           bookname:this.picbookname,
           isprivate:this.isprivate,

@@ -39,7 +39,7 @@ export default {
         searchbook(){
             if(this.bookname!=''){
                 this.booklist = []
-                axios.post('http://qinsw666.top:5001/search',{
+                axios.post('自己的接口/search',{
                     bookname:this.bookname
                 }).then((result)=>{
                     //console.log(result)

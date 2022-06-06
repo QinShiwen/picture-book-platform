@@ -52,7 +52,7 @@ export default {
             if(sessionStorage.getItem('userinfo')){
                 if(this.ifcollect === false){ //收藏
                     let userid = JSON.parse(sessionStorage.getItem('userinfo')).userid
-                    axios.post("http://qinsw666.top:5001/collect",{
+                    axios.post("自己的接口/collect",{
                         bookname:this.book.bookname,
                         bookid:this.book.bookid,
                         userid,
@@ -78,7 +78,7 @@ export default {
             }
         },
         topicbookshow(){
-            axios.post('http://qinsw666.top:5001/getbook',{
+            axios.post('自己的接口/getbook',{
                 bookid:this.book.bookid,
                 userid:this.creatorid
             }).then((res)=>{

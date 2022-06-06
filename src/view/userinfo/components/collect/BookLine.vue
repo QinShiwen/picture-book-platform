@@ -21,7 +21,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 
 export default {
     nmae:"BookLine",

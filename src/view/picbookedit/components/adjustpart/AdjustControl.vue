@@ -14,7 +14,6 @@
 
 <script>
 import AdjustContent from './AdjustContent.vue'
-import axios from 'axios'
 
 export default {
   name: 'AdjustControl',

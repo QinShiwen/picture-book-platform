@@ -49,7 +49,7 @@ export default {
       this.$store.commit("slideHandler/CHANGETHEME",themeInfo)
     },
         savePicBook(){
-      axios.post('http://qinsw666.top:5001/savebook',{
+      axios.post('自己的接口/savebook',{
         userid:JSON.parse(sessionStorage.getItem('userinfo')).userid,
         bookid:sessionStorage.getItem('presentbookid'),
         book:this.$store.state.slideHandler.picbook

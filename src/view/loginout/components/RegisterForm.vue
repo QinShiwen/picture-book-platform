@@ -1,3 +1,4 @@
+
 <template>
     <div class="cont_form_sign_up">
         <h2>注册</h2>
@@ -37,7 +38,7 @@ export default {
             }else if(this.password!=this.confirm){
                 this.$message.error("密码前后不一致！")
             }else{
-                axios.post('http://qinsw666.top:5001/register',{
+                axios.post('自己的接口/register',{
                     email:String(this.email),
                     name:String(this.name),
                     password:String(this.password),

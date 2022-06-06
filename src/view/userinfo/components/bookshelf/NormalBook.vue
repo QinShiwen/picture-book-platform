@@ -71,7 +71,7 @@ export default {
     },
     setpicbook(){
       if(this.newbookname!=""&&this.isprivate!=""){
-        axios.post('http://qinsw666.top:5001/editbook',{
+        axios.post('自己的接口/editbook',{
           bookid:this.book.bookid,
           bookname:this.newbookname,
           userid:this.userid,
@@ -96,7 +96,7 @@ export default {
       }
     },
     toBookEdit(){
-      axios.post('http://qinsw666.top:5001/getbook',{
+      axios.post('自己的接口/getbook',{
         bookid:this.book.bookid,
         userid:this.userid
       }).then((res)=>{
@@ -116,7 +116,7 @@ export default {
           cancelButtonText: '取消',
           type: 'warning'
         }).then(() => {
-          axios.post('http://qinsw666.top:5001/deletebook',{
+          axios.post('自己的接口/deletebook',{
             bookid:this.book.bookid,
             userid:this.userid
           }).then((res)=>{  
@@ -142,7 +142,7 @@ export default {
         });
     },
     toBookShow(){
-      axios.post('http://qinsw666.top:5001/getbook',{
+      axios.post('自己的接口/getbook',{
         bookid:this.book.bookid,
         userid:this.userid
       }).then((res)=>{

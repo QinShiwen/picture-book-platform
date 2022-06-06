@@ -172,7 +172,7 @@ export default {
             let bookid = sessionStorage.getItem('presentbookid')
             axios({
                 method: 'post',
-                url:"http://qinsw666.top:5001/uploadrecordvoice?userid="+userid +"&bookid="+bookid,
+                url:"自己的接口/uploadrecordvoice?userid="+userid +"&bookid="+bookid,
                 data:format,
                 headers: {
                     'Content-Type': 'multipart/form-data;charset=UTF-8'

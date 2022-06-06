@@ -23,7 +23,7 @@
       <el-upload
         v-else
         class="avatar-uploader"
-        action = "http://qinsw666.top:5001/uploadimage"
+        action = "自己的接口/uploadimage"
         :show-file-list= "false"
         :on-success= "handleAvatarSuccess"
         :before-upload= "beforeAvatarUpload"

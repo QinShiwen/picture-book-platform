@@ -27,7 +27,7 @@ export default {
             }else if(this.password===''){
                 this.$message("请输入密码")
             }else{
-                axios.post('http://qinsw666.top:5001/login',{
+                axios.post('自己的接口/login',{
                     username:this.name,
                     password:this.password
                 }).then((res)=>{

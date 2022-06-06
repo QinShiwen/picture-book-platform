@@ -12,8 +12,6 @@
 </template>
 
 <script>
-import {nanoid} from 'nanoid'
-import axios from 'axios'
 import OneBook from './OneBook.vue'
 
 export default {
