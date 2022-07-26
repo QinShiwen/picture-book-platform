@@ -9,14 +9,23 @@
 - 绘本检索
 - 绘本收藏
 - 精选绘本阅览与收藏
+
+![image](https://raw.githubusercontent.com/QinShiwen/picture-book-platform/master/picRefer/main.jpg)
+
 ### 登陆注册页面
 - 注册
 - 登录
+
+![image](https://raw.githubusercontent.com/QinShiwen/picture-book-platform/master/picRefer/login.jpg)
+
 ### 个人中心页面
 - 绘本管理：新建、删除、修改、编辑与阅览跳转
 - 绘本收藏查看
 - 个人信息查看
 - 页面跳转与注销
+
+![image](https://raw.githubusercontent.com/QinShiwen/picture-book-platform/master/picRefer/manage.jpg)
+
 ### 绘本编辑页面
 - 页面添加、删除
 - 图片上传、删除
@@ -24,12 +33,17 @@
 - 句子添加、删除
 - 音频播放、上传、删除
 - 绘本样式调整（页面区域、字体颜色）
+
+![image](https://raw.githubusercontent.com/QinShiwen/picture-book-platform/master/picRefer/edit.jpg)
+
 ### 绘本阅览页面
 - 音频顺序播放、暂停
 - 绘本文本伴随音频播放高亮
 - 绘本本页音频提示是否存在
 - 绘本页面跳转
 - 绘本页面完成播放自动跳转下页
+
+![image](https://raw.githubusercontent.com/QinShiwen/picture-book-platform/master/picRefer/show.jpg)
 
 # 项目结构与运行
 运行项目前可准备好后端接口，使用Python Falsk实现，代码放置在picbook-py中，直接运行即可：
